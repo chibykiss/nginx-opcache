@@ -23,7 +23,7 @@ nginx-opcache/
 │   ├── nginx/
 │   │   └── default.conf   # Nginx site configuration
 │   ├── php/
-│   │   └── opcache.ini    # Custom OPCache settings
+│   │   └── php.ini    # Custom OPCache settings
 │   └── Dockerfile         # PHP image with OPCache
 ├── docker-compose.yml
 └── README.md
@@ -92,14 +92,14 @@ Look for the "Zend OPcache" section in the output.
 
 ## 🧰 Customization
 
-- Update the `opcache.ini` file to tweak caching behavior.
+- Update the `php.ini` file to tweak caching behavior.
 - Modify Nginx config in `docker/nginx/default.conf` as needed.
 
 ---
 
 ## 🙌 Credits
 
-Created by [Your Name](https://github.com/your-username)
+Created by [Chibykiss](https://github.com/chibykiss)
 
 ---
 
